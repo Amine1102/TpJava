@@ -6,4 +6,9 @@ public class Player {
 
     public int getColor() {return color;}
     public void setColor(int color) {this.color = color;}
+
+    public Player(String name, int color){
+        this.name = name;
+        this.color = color;
+    }
 }
