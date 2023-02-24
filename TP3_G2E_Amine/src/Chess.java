@@ -38,6 +38,36 @@ public class Chess {
     }
 
     private void initialiseBoard(){
+    }
+
+    private void printBoard(){
 
     }
+
+    private String askMove(){
+        Scanner scanner = new Scanner(System.in);
+        Player currentPlayer = getCurrentPlayer();
+        System.out.println("Piece a deplacer et destination ? ");
+        String nextMove = scanner.nextLine();
+        // String pieceSelected = nextMove[0];
+        // String pieceDestination = nextMove[1];
+        return nextMove;
+    }
+
+    private boolean isCheckMate(){
+        return false;
+
+    }
+
+    private boolean isValidMove(String move){
+        String[] splitedMove = move.split(" ");
+
+
+
+    }
+
+
+
+
+
 }
