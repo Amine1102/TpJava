@@ -8,7 +8,7 @@ public class Position {
     public void setColumn(String column) {this.column = column;}
 
     public String toString(){
-        return "Position : " + this.getRow() + "" + this.getColumn();
+        return "Position : " + row + "" + column;
     }
 
 

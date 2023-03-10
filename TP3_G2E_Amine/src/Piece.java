@@ -3,9 +3,7 @@ public abstract class Piece {
     private Position position;
 
     public abstract boolean isValidMove();
-    public String toString(){
-
-    };
+    public abstract String toString();
 
     occupePar()
 
