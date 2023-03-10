@@ -1,8 +1,9 @@
-public class Pawn extends Piece{
+package Piece;
+public class King extends Piece {
     public boolean isValidMove(Position newPosition, Cell[][] board) {
         return false;
     }
     public String toString() {
-        return "P";
+        return "K";
     }
 }
